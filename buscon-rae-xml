@@ -1,0 +1,10 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Buscón RAE</ShortName>
+  <Description>Buscador de palabras para el diccionario de la Real Academia Española</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image height="16" width="16" type="image/x-icon">http://dle.rae.es/images/favicon.ico</Image>
+  <Url type="text/html" template="http://dle.rae.es/?w={searchTerms}">
+    <Param name="key name" value="{searchTerms}"/>
+  </Url>
+</OpenSearchDescription>
